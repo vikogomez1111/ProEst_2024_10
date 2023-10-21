@@ -1,0 +1,63 @@
+LENGUAJE DE PROGRAMACIÓN C
+--------------------------
+/* Este programa realizará las tablas de multiplicar
+   del 1 al 12 hasta por 12 */
+
+// Inicialización de librearías
+#include <stdio.h>
+#include <stdlib.h>
+
+/* TIPOS DE DATOS
+int    - Valores Enteros - 16 bits -- 8; -15; 12934
+float  - Valor Real      - 32 bits -- 8,34; -5,97; 100,5
+double - Valor Real  en doble precisión - 64 bits -- 1999,456; -200,45;
+char   - Caractéres 8 bits - 'a', 'b' , '\n'
+*/
+
+//Aquí se podría definir variables globales y constantes
+
+/* A los tipos de datos se los tiene que definir con una variable:
+
+int numero_entero = 16;
+float numero_real_simple = 5,6;
+double numero_real_double = 13523,234;
+char caracter='t';
+
+-- OPERADORES REALACIONALES
+*/
+
+/* OPERADORES
+
+--ARITMÉTICOS-- Operaciones Aritmética
+ + Suma;
+ - Resta;
+ * Multiplicación;
+ / División decimal;
+ % Módulo (Entre en divisor de una operación - o el resto"
+
+-- RELACIONALES (Devulven 1-UNO si se cumple la condición o 0-CERO si no se cumple
+ == igual;
+ != distinto o diferente;
+ > Mayor;
+ >= Mayor o Igual;
+ < Menor;
+ <= Menor o Igual;
+
+ -- LÓGICOS
+ || (OR  - O) - Si alguna de las condiciones se cumple (Devuelve 1 si algunas de las condiciones se cumple y o si ninguna se cumple)
+ && (AND - Y) - si todas las condiciones se cumplen (Devuelve 1 si todas las condiciones se cumple caso contrario se vuelve 0)
+ not (NO)     - Invierte el resultado de una condición (Si la condición se cumple cambia el valor)
+ 
+ -- ASIGNACIÓN
+ =  -> Asignavalor a variable
+ += -> Suma valor a variable y asigna
+ -= -> Resta valor a vaiable y asigna
+ *= -> Multiplica valor a variable y asigna
+ /= -> divide valor a variable y asigna
+ 
+-- ENTRADA DE DATOS Y SALIDA DE DATOS
+-- SALIDAS --    
+    - normal
+printf("Imprimir un texto")
+    - contenido de la varialbe
+printf("%d", variable);     
